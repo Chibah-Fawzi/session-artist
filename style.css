@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+body {
+  margin: 0;
+  padding: 10px 20vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+}
+
+nav input {
+  padding: 10px 20px;
+  width: 350px;
+  border: 1px solid #e8e8e8;
+}
+
+.btn {
+  border: 1px solid #007163;
+  border-radius: 5px;
+  padding: 15px 40px;
+  font-weight: bolder;
+  transition: all 0.4s;
+}
+.remplie {
+  margin-left: 20px;
+  background-color: #007163;
+  color: #fff;
+}
+.remplie:hover {
+  background-color: #014d44;
+}
+.vide {
+  background: none;
+  color: #007163;
+}
+.vide:hover {
+  background-color: rgb(204, 252, 212);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+}
+
+.main h1 {
+  font-size: 64px;
+  width: 800px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  z-index: 1;
+}
+
+.main p {
+  font-size: 30px;
+}
+
+.primary {
+  background: rgba(0, 113, 99, 0.1);
+  color: #007163;
+  margin-left: 20px;
+}
+.primary:hover {
+  background: rgba(0, 113, 100, 0.205);
+}
+
+.secondary {
+  background: rgba(166, 124, 82, 0.1);
+  color: #a67c52;
+}
+.secondary:hover {
+  background: rgba(166, 124, 82, 0.356);
+}
+
+.cards {
+  margin-top: 20vh;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+footer {
+  margin-top: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer a {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 20px;
+}
+
+.rond {
+  background-color: #a67c52;
+  width: 50px;
+  height: 10px;
+  position: absolute;
+  top: 300px;
+  left: 690px;
+}
